@@ -1,0 +1,34 @@
+/* Header Section */
+
+  h1 {
+    padding: 20px;
+  }
+
+/* Main Section */
+
+  #main-doc {
+    max-width: 860px;
+    margin: auto;
+  }
+
+/* FAQ Section */
+
+ /*  #faq-section {
+    background-color: #eee;
+    min-height: 800px;
+  } */
+
+  .faq-header {
+    background-color: #eee;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .faq-header h3 {
+    margin: 0;
+  }
+
+  .faq-body {
+    padding: 40px;
+    display: none;
+  }
