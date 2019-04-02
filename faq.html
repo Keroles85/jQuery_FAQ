@@ -9,7 +9,8 @@
   <script>
     $(document).ready(function() {
       $(".faq-header").click(function() {
-
+        $(this).toggleClass("active");
+        $(this).siblings(".faq-content").slideToggle();
       });
     });
   </script>
@@ -19,37 +20,80 @@
 <body>
   <main id="main-doc">
     <header>
-      <h1>Lorem, ipsum. FAQ</h1>
+      <h1>Lorem ipsum FAQ.</h1>
     </header>
     <section id="faq-section">
 
-      <div class="faq">
-        <h3>Lorem ipsum dolor sit amet.</h3>
+      <div class="faq-container">
+        <div class="faq-header">
+          <h3>Lorem ipsum dolor sit amet.</h3>
+          <!-- <h4>&plus;</h4> -->
+        </div>
+        <div class="faq-content">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Deserunt blanditiis magni numquam accusamus aperiam minus a cumque nemo cum 
+          cupiditate architecto voluptatibus veritatis placeat accusantium, fugiat, 
+          amet commodi aut quos.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Deserunt blanditiis magni numquam accusamus aperiam minus a cumque nemo cum 
+          cupiditate architecto voluptatibus veritatis placeat accusantium, fugiat, 
+          amet commodi aut quos.
+        </div>
       </div>
-      <div class="faq-body" id="faq-body-1">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt blanditiis magni numquam accusamus aperiam minus a cumque nemo cum cupiditate architecto voluptatibus veritatis placeat accusantium, fugiat, amet commodi aut quos.
+      
+      
+      <div class="faq-container">
+        <div class="faq-header">
+          <h3>Lorem ipsum dolor sit amet.</h3>
+          <!-- <h4>&plus;</h4> -->
+        </div>
+        <div class="faq-content">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Deserunt blanditiis magni numquam accusamus aperiam minus a cumque nemo cum 
+          cupiditate architecto voluptatibus veritatis placeat accusantium, fugiat, 
+          amet commodi aut quos.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Deserunt blanditiis magni numquam accusamus aperiam minus a cumque nemo cum 
+          cupiditate architecto voluptatibus veritatis placeat accusantium, fugiat, 
+          amet commodi aut quos.
+        </div>
       </div>
 
-      <div class="faq-header">
-        <h3>Lorem ipsum dolor sit amet.</h3>
-      </div>
-      <div class="faq-body">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt blanditiis magni numquam accusamus aperiam minus a cumque nemo cum cupiditate architecto voluptatibus veritatis placeat accusantium, fugiat, amet commodi aut quos.
+      <div class="faq-container">
+        <div class="faq-header">
+          <h3>Lorem ipsum dolor sit amet.</h3>
+          <!-- <h4>&plus;</h4> -->
+        </div>
+        <div class="faq-content">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Deserunt blanditiis magni numquam accusamus aperiam minus a cumque nemo cum 
+          cupiditate architecto voluptatibus veritatis placeat accusantium, fugiat, 
+          amet commodi aut quos.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Deserunt blanditiis magni numquam accusamus aperiam minus a cumque nemo cum 
+          cupiditate architecto voluptatibus veritatis placeat accusantium, fugiat, 
+          amet commodi aut quos.
+        </div>
       </div>
 
-      <div class="faq-header">
-        <h3>Lorem ipsum dolor sit amet.</h3>
-      </div>
-
-      <div class="faq-body">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt blanditiis magni numquam accusamus aperiam minus a cumque nemo cum cupiditate architecto voluptatibus veritatis placeat accusantium, fugiat, amet commodi aut quos.
-      </div>
-      <div class="faq-header">
-        <h3>Lorem ipsum dolor sit amet.</h3>
-      </div>
-      <div class="faq-body">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt blanditiis magni numquam accusamus aperiam minus a cumque nemo cum cupiditate architecto voluptatibus veritatis placeat accusantium, fugiat, amet commodi aut quos.
-      </div>
+      <!-- <div class="faq-container">
+        <div class="faq-header">
+          <h3>Lorem ipsum dolor sit amet.</h3>
+          <h4>&plus;</h4>
+        </div>
+        <div class="faq-content">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Deserunt blanditiis magni numquam accusamus aperiam minus a cumque nemo cum 
+          cupiditate architecto voluptatibus veritatis placeat accusantium, fugiat, 
+          amet commodi aut quos.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Deserunt blanditiis magni numquam accusamus aperiam minus a cumque nemo cum 
+          cupiditate architecto voluptatibus veritatis placeat accusantium, fugiat, 
+          amet commodi aut quos.
+        </div>
+      </div> -->
+      
+      
     </section>
   </main>
 </body>
